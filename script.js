@@ -67,14 +67,15 @@ function updateCheckboxStatus() {
 	});
 }
 
-// function updateTaskDeletionStatus() {
-// 	$('#delete-task-button').on('click', function(event) {
-//     // $(event.target).parent().children().first().addClass('checked');
-//     //       var completedID = $(event.target).parent().children().first().attr('id');
-//     //       deleteTask(deletedID);
-//     }
-// 	});
-// }
+$("#delete-task-button").click(function (event) {
+  console.log("Delete button pressed");
+  var deletedID = $('#claire').children().children().first().attr('id');
+  console.log('Will attempt to delete task ' + deletedID);
+  $('#claire').children().children().first().remove(); //removes task
+  $('#claire').children().children().first().remove(); //removes checkbox
+  deleteTask(deletedID);
+  console.log('Delete button function completed');
+});
 
 $("#new-task-button").click(function (event) {
   insertTask();

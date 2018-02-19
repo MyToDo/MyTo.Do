@@ -3,8 +3,10 @@
 A simple and intuitive to-do list that integrates with Google Tasks.
 
 ## Features
-- Display
+- Tasks
   - Display's Mark's tasks from one specified task list
+- Checkboxes
+- Display's Mark's tasks' checkboxes from one specified task list
 - Buttons
   - New Task
     - Adds a new task to top of list
@@ -12,7 +14,7 @@ A simple and intuitive to-do list that integrates with Google Tasks.
   - Edit Task
     - No function
   - Delete Task
-    - No function
+    - Deletes the first task and removes from view
 - Keys
   - Enter
     - Appears to create a new task on view
@@ -25,7 +27,6 @@ A simple and intuitive to-do list that integrates with Google Tasks.
     - Deletes next task when cursor is at end
     - Doesn't edit task
     - Subtasks of a deleted task go to bottom upon refresh
-
 
 ## Required
 - Node
