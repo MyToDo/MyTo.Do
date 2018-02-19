@@ -3,6 +3,8 @@
 A simple and intuitive to-do list that integrates with Google Tasks.
 
 ## Features
+- Display
+  - Display's Mark's tasks from one specified task list
 - Buttons
   - New Task
     - Adds a new task to top of list
@@ -27,11 +29,12 @@ A simple and intuitive to-do list that integrates with Google Tasks.
 
 ## Setup Instructions
 - npm install
-- node server
-- Terminal will instruct that server runs at: http://0.0.0.0:8080, but you must view from http://localhost:8080/. For reasoning, see [here](https://stackoverflow.com/questions/32041418/google-sign-in-website-error-permission-denied-to-generate-login-hint-for-targ).
+- Type `node server` to run the application
+- Terminal will instruct that server runs at: http://0.0.0.0:8080, but you must view from http://localhost:8080/. Why? See [here](https://stackoverflow.com/questions/32041418/google-sign-in-website-error-permission-denied-to-generate-login-hint-for-targ).
 - Login
 
 ## Task Data
+Each task comes with the following data attributes:
 
 {
   "kind": "tasks#task",
