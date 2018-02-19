@@ -2,6 +2,26 @@
 
 A simple and intuitive to-do list that integrates with Google Tasks.
 
+## Features
+- Buttons
+  - New Task
+    - Adds a new task to top of list
+    - View only updates upon refresh
+  - Edit Task
+    - No function
+  - Delete Task
+    - No function
+- Keys
+  - Enter
+    - Appears to create a new task on view
+    - Doesn't create a new task
+  - Backspace
+    - Deletes current task when cursor is at [0]
+    - Doesn't edit task
+  - Delete
+    - Deletes next task when cursor is at end
+    - Doesn't edit task
+
 ## Required
 - Node
 
