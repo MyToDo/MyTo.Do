@@ -1,0 +1,61 @@
+<html>
+  <head>
+   <title>MyTo.Do</title>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+   <script type="text/javascript" src="jquery.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>
+        <span style="color:#4885ed">My</span><span style="color:#3cba54">To</span><span style="color:#4885ed">.</span><span style="color:#3cba54">Do</span>
+      </h1>
+      <!-- <img src="public/img/mytodo.png"/> -->
+      <span id="total"></span>
+    </div>
+
+    <div id="authorize-div">
+      <button class="btn btn-default btn-lg" id="authorize-button" onclick="handleAuthClick(event)">
+        Log In
+      </button>
+    </div>
+
+    <div id="new-task-div">
+      <button class="btn btn-default btn-lg" id="new-task-button">
+        New Task
+      </button>
+      <button class="btn btn-default btn-lg" id="edit-task-button">
+        Edit Task
+      </button>
+      <button class="btn btn-default btn-lg" id="delete-task-button">
+        Delete Task
+      </button>
+    </div>
+
+    <!-- <div id="container">
+      <ul class="list">
+        <li><input type="text" class="todo"/><input type="checkbox"/></li>
+      </ul>
+    </div> -->
+
+    <div id="list-div">
+      <ul class="list" id="claire">
+      </ul>
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="tasks.js"></script>
+</html>
