@@ -20,9 +20,12 @@ A simple and intuitive to-do list that integrates with Google Tasks.
   - Backspace
     - Deletes current task when cursor is at [0]
     - Doesn't edit task
+    - Subtasks of a deleted task go to bottom upon refresh
   - Delete
     - Deletes next task when cursor is at end
     - Doesn't edit task
+    - Subtasks of a deleted task go to bottom upon refresh
+
 
 ## Required
 - Node
