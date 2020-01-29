@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "env2": "^2.0.2",
-    "hapi": "^9.3.1",
+    "hapi": "^18.1.0",
     "inert": "^3.0.1",
     "mongodb": "^2.0.42",
     "nodemon": "^1.4.1",
