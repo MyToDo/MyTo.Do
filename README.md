@@ -4,9 +4,9 @@ A simple and intuitive to-do list that integrates with Google Tasks.
 
 ## Features
 - Tasks
-  - Display's Mark's tasks from one specified task list
+  - Displays tasks from one specified task list
 - Checkboxes
-- Display's Mark's tasks' checkboxes from one specified task list
+- Displays tasks' checkboxes from one specified task list
 - Buttons
   - New Task
     - Adds a new task to top of list
